@@ -1,1 +1,1 @@
-"# Studies-PL-" 
+#Studies content mainly in polish.
