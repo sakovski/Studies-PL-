@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaStudentow>
+	<student grupa="I" pozycjaWGrupie="10">
+		<nazwisko>Kowalski</nazwisko>
+		<imie>Jan</imie>
+		<nrIndeksu>123</nrIndeksu>
+		<wydzialKod>MFI</wydzialKod>
+	</student>
+	<student grupa="I" pozycjaWGrupie="11">
+		<nazwisko>Lipińska</nazwisko>
+		<imie>Ewa</imie>
+		<nrIndeksu>124</nrIndeksu>
+		<wydzialKod>MFI</wydzialKod>
+	</student>
+	<student grupa="III" pozycjaWGrupie="1">
+		<nazwisko>Fisherman</nazwisko>
+		<imie>Adriano</imie>
+		<nrIndeksu>666</nrIndeksu>
+		<wydzialKod>MFI</wydzialKod>
+	</student>
+</listaStudentow>

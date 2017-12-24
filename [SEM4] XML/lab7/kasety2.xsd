@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="typtype">
+  <xs:restriction base="xs:string"/>
+</xs:simpleType>
+
+<xs:simpleType name="tytultype">
+  <xs:restriction base="xs:string"/>
+</xs:simpleType>
+
+<xs:simpleType name="idtype">
+  <xs:restriction base="xs:string">
+  <xs:enumeration value="ju71"/>
+  <xs:enumeration value="g66l"/>
+  <xs:enumeration value="d4m2"/>
+  <xs:enumeration value="r2zz"/>
+  <xs:enumeration value="fg5z"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="typ_daty">
+  <xs:restriction base="xs:date"/>
+</xs:simpleType>
+
+<xs:complexType name="kasetytype">
+    <xs:sequence>
+      <xs:element name="kaseta" type="kasetatype" maxOccurs="unbounded"/>
+       </xs:sequence>
+  </xs:complexType>
+
+<xs:complexType name="kasetatype">
+    <xs:sequence>
+      <xs:element name="tytul" type="typtype" maxOccurs="1"/>
+     <xs:element name="id" type="typtype" maxOccurs="1"/>
+     <xs:element name="typ" type="typtype" maxOccurs="1"/>
+       </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="wypozyczeniatype">
+     <xs:sequence>
+      <xs:element name="wypozyczenie" type="wypozyczenietype" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+    <xs:complexType name="wypozyczenietype">
+    <xs:sequence>
+      <xs:element name="dataWypozyczenia" type="typ_daty"  maxOccurs="1"/>
+      <xs:element name="dataZwrotu" type="typ_daty"  maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="idKasety" type="idtype"/>
+  </xs:complexType>
+
+<xs:complexType name="wypozyczalniatype">
+  <xs:sequence>
+    <xs:element name="kasety" maxOccurs="unbounded" type="kasetytype"/>
+    <xs:element name="wypozyczenia"  maxOccurs="unbounded" type="wypozyczeniatype"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:element name="wypozyczalnia" type="wypozyczalniatype">
+  <xs:key name="kasetyR">
+    <xs:selector xpath="kasety/kaseta"/>
+    <xs:field xpath="id"/>
+  </xs:key>
+  <xs:keyref name="kasetyRef" refer="kasetyR">
+      <xs:selector xpath="wypozyczenia/wypozyczenie"/>
+      <xs:field xpath="@idKasety"/>
+    </xs:keyref>
+</xs:element>
+</xs:schema>

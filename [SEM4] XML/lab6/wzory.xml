@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wzory>
+	<dzialanie1>123+30=23424</dzialanie1>
+	<dzialanie1>004343+0=232</dzialanie1>
+	<!--<dzialanie1>110=232 brak plusa i drugiego skladnika</dzialanie1>-->
+	<!--<dzialanie2>123 + 30 = 23424; 004343 + 0 = 232; 5 + 5 = 10</dzialanie2> brak srednika i spacji na koncu-->
+        <dzialanie2>123 + 30 = 23424; 004343 + 0 = 232; 5 + 5 = 10; </dzialanie2>
+	<!--<dzialanie2>123 + 30 = 23424 004343 + 0 = 232 5 + 5 = 10 </dzialanie2> break srednikow-->
+	<!--<dzialanie2>123 + 30 = 23424004343 + 0 = 2325 + 5 = 10</dzialanie2> break srednikow i odstepow-->
+	<!--<dzialanie2>123+43=34; 45+3=4 brak odstepow</dzialanie2>-->
+        <!--<dzialanie2>123+43=34; 45+3=4; j.w.</dzialanie2>-->
+	<dzialanie2>123 + 43 = 34; </dzialanie2>
+  <!--<dzialanie2>123 + 43 = 34</dzialanie2> brak srednika-->
+	<kod>Kb$062A</kod>
+	<kod>Kaa212B</kod>
+	<!--<kod>KaX212B</kod> wielka litera na 3 pozycji-->
+	<!--<kod>Kaa2s4A</kod> cyfra na 5 pozycji-->
+	<!--<kod>Kb$062U</kod> siodma litera to nie A lub B-->
+	<haslo>aDuc$</haslo>
+	<haslo>D@D@kakaMM</haslo>
+	<!--<haslo>p0gwer</haslo> ma liczbe-->
+	<!--<haslo>123wata</haslo> ma liczby-->
+	<!--<haslo>stolenakryjsie</haslo> wiecej niz 10 znakow-->
+	<liczba>12040</liczba>
+	<!--<liczba>8945588</liczba> za malo zer-->
+	<!--<liczba>89405588 za malo zer</liczba>-->
+	<!--<liczba>3000001</liczba> nie parzysta-->
+	<liczba>102030405060</liczba>
+	<liczba>00000000</liczba>
+</wzory>

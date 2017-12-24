@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="markaType">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Audi"/>
+    <xs:enumeration value="BMW"/>
+    <xs:enumeration value="Citroen"/>
+    <xs:enumeration value="Fiat"/>
+    <xs:enumeration value="Ford"/>
+    <xs:enumeration value="Mazda"/>
+    <xs:enumeration value="Porsche"/>
+    <xs:enumeration value="Lamborgini"/>
+    <xs:enumeration value="Ferrari"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="modelType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="rejestrType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="7"/>
+    <xs:maxLength value="10"/>
+    <xs:whiteSpace value="collapse"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="przebiegValueType">
+  <xs:restriction base="xs:decimal">
+    <xs:fractionDigits value="2"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="przebiegType">
+  <xs:simpleContent>
+      <xs:extension base="przebiegValueType">
+        <xs:attribute name="jednostka">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="km"/>
+            <xs:enumeration value="M"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="rocznikType">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="1900"/>
+    <xs:maxInclusive value="2017"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="zuzyciepaliwaValueType">
+  <xs:restriction base="xs:decimal">
+    <xs:fractionDigits value="1"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="zuzyciepaliwaType">
+  <xs:simpleContent>
+      <xs:extension base="zuzyciepaliwaValueType">
+        <xs:attribute name="jednostka">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="l/100km"/>
+            <xs:enumeration value="l/100M"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="mocValueType">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="50"/>
+    <xs:maxInclusive value="1500"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="mocType">
+  <xs:simpleContent>
+      <xs:extension base="mocValueType">
+        <xs:attribute name="jednostka">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="KM"/>
+            <xs:enumeration value="kW"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="pojemnoscosobType">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="2"/>
+    <xs:maxInclusive value="8"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="idType">
+  <xs:restriction base="xs:integer"/>
+</xs:simpleType>
+
+<xs:simpleType name="imieType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="2"/>
+    <xs:maxLength value="20"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="nazwiskoType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="2"/>
+    <xs:maxLength value="30"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="plecType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="M|K"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="ulicaType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="2"/>
+    <xs:maxLength value="40"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="numermieszkaniaType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="1"/>
+    <xs:maxLength value="8"/>
+    <xs:whiteSpace value="collapse"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="miastoType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="2"/>
+    <xs:maxLength value="30"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="kodpocztowyType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[0-9]{2}-[0-9]{3}"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="telefonType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[0-9]{9}"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="emailType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[a-zA-Z0-9_.+\-]+@[a-zA-Z0-9]+\.[a-zA-Z]+"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="daneteleadresoweType">
+  <xs:sequence>
+    <xs:element name="ulica" type="ulicaType"/>
+    <xs:element name="nr-mieszkania" type="numermieszkaniaType"/>
+    <xs:element name="miasto" type="miastoType"/>
+    <xs:element name="kod-pocztowy" type="kodpocztowyType" />
+    <xs:element name="telefon" type="telefonType" maxOccurs="2"/>
+    <xs:element name="email" type="emailType" maxOccurs="2"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="loginType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="5"/>
+    <xs:maxLength value="25"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="hasloType">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="5"/>
+    <xs:maxLength value="50"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="nrdowoduType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[A-Z]{3}[0-9]{6}"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="prawojazdyType">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="A"/>
+    <xs:enumeration value="B"/>
+    <xs:enumeration value="B+E"/>
+    <xs:enumeration value="C"/>
+    <xs:enumeration value="D"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="dataType">
+  <xs:restriction base="xs:date"/>
+</xs:simpleType>
+
+<xs:complexType name="wypozyczenieType">
+<xs:sequence>
+  <xs:element name="dataWypozyczenia" type="dataType"  maxOccurs="1"/>
+  <xs:element name="dataZwrotu" type="dataType"  maxOccurs="1"/>
+</xs:sequence>
+<xs:attribute name="idSamochodu" type="idType"/>
+</xs:complexType>
+
+<xs:complexType name="wypozyczeniaType">
+  <xs:sequence>
+    <xs:element name="wypozyczenie" type="wypozyczenieType" maxOccurs="unbounded"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="samochodType">
+  <xs:sequence>
+    <xs:element name="marka" type="markaType"/>
+    <xs:element name="model" type="modelType"/>
+    <xs:element name="nr-rejestracyjny" type="rejestrType"/>
+    <xs:element name="przebieg" type="przebiegType"/>
+    <xs:element name="rocznik" type="rocznikType"/>
+    <xs:element name="zuzycie-paliwa" type="zuzyciepaliwaType"/>
+    <xs:element name="moc" type="mocType"/>
+    <xs:element name="pojemnosc-osob" type="pojemnoscosobType"/>
+    <xs:element name="id" type="idType"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="osobaType">
+  <xs:sequence>
+    <xs:element name="imie" type="imieType"/>
+    <xs:element name="nazwisko" type="nazwiskoType"/>
+    <xs:element name="plec" type="plecType"/>
+    <xs:element name="dane-teleadresowe" type="daneteleadresoweType"/>
+    <xs:element name="login" type="loginType"/>
+    <xs:element name="haslo" type="hasloType"/>
+    <xs:element name="nr-dowodu" type="nrdowoduType"/>
+    <xs:element name="prawo-jazdy-kategoria" type="prawojazdyType"/>
+    <xs:element name="wypozyczenia" type="wypozyczeniaType"/>
+  </xs:sequence>
+  <xs:attribute name="idOsoby" type="idType"/>
+</xs:complexType>
+
+<xs:complexType name="samochodyType">
+  <xs:sequence>
+    <xs:element name="samochod" maxOccurs="unbounded" type="samochodType"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="osobyType">
+  <xs:sequence>
+    <xs:element name="osoba" maxOccurs="unbounded" type="osobaType"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="wypozyczalniaType">
+  <xs:sequence>
+    <xs:element name="samochody" maxOccurs="unbounded" type="samochodyType"/>
+    <xs:element name="osoby"  maxOccurs="unbounded" type="osobyType"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:element name="wypozyczalnia" type="wypozyczalniaType">
+  <xs:key name="samochodyR">
+    <xs:selector xpath="samochody/samochod"/>
+    <xs:field xpath="id"/>
+  </xs:key>
+  <xs:keyref name="samochodyRef" refer="samochodyR">
+    <xs:selector xpath="osoby/osoba/wypozyczenia/wypozyczenie"/>
+    <xs:field xpath="@idSamochodu"/>
+  </xs:keyref>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samochody>
+  <samochod idSamochodu="1">
+    <marka></marka>
+    <model></model>
+    <nr-rejestracyjny></nr-rejestracyjny>
+    <przebieg jednostka="km"></przebieg>
+    <rocznik></rocznik>
+    <zuzycie-paliwa jednostka="l/100km"></zuzycie-paliwa>
+    <moc jednostka="KM"></moc>
+    <pojemnosc jednostka="liczba-osob"></pojemnosc>
+  </samochod>
+  <samochod idSamochodu="2">
+    <marka></marka>
+    <model></model>
+    <nr-rejestracyjny></nr-rejestracyjny>
+    <przebieg jednostka="km"></przebieg>
+    <rocznik></rocznik>
+    <zuzycie-paliwa jednostka="l/100km"></zuzycie-paliwa>
+    <moc jednostka="KM"></moc>
+    <pojemnosc jednostka="liczba-osob"></pojemnosc>
+  </samochod>
+  <samochod idSamochodu="3">
+    <marka></marka>
+    <model></model>
+    <nr-rejestracyjny></nr-rejestracyjny>
+    <przebieg jednostka="km"></przebieg>
+    <rocznik></rocznik>
+    <zuzycie-paliwa jednostka="l/100km"></zuzycie-paliwa>
+    <moc jednostka="KM"></moc>
+    <pojemnosc jednostka="liczba-osob"></pojemnosc>
+  </samochod>
+  <samochod idSamochodu="4">
+    <marka></marka>
+    <model></model>
+    <nr-rejestracyjny></nr-rejestracyjny>
+    <przebieg jednostka="km"></przebieg>
+    <rocznik></rocznik>
+    <zuzycie-paliwa jednostka="l/100km"></zuzycie-paliwa>
+    <moc jednostka="KM"></moc>
+    <pojemnosc jednostka="liczba-osob"></pojemnosc>
+  </samochod>
+  <samochod idSamochodu="5">
+    <marka></marka>
+    <model></model>
+    <nr-rejestracyjny></nr-rejestracyjny>
+    <przebieg jednostka="km"></przebieg>
+    <rocznik></rocznik>
+    <zuzycie-paliwa jednostka="l/100km"></zuzycie-paliwa>
+    <moc jednostka="KM"></moc>
+    <pojemnosc jednostka="liczba-osob"></pojemnosc>
+  </samochod>
+  <samochod idSamochodu="6">
+    <marka></marka>
+    <model></model>
+    <nr-rejestracyjny></nr-rejestracyjny>
+    <przebieg jednostka="km"></przebieg>
+    <rocznik></rocznik>
+    <zuzycie-paliwa jednostka="l/100km"></zuzycie-paliwa>
+    <moc jednostka="KM"></moc>
+    <pojemnosc jednostka="liczba-osob"></pojemnosc>
+  </samochod>
+</samochody>

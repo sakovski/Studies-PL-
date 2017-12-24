@@ -1,0 +1,11 @@
+Baza danych:
+
+0
+a
+b
+2
+1.230000
+erwe
+fadf
+4
+5.670000

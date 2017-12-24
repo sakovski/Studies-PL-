@@ -1,0 +1,12 @@
+*.exe
+*.o
+*.class
+*.lib
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.png
+*.jpg

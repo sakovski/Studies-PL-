@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wypozyczalnia>
+  <samochody>
+  	<samochod>
+  		<nr-rej>NMR3582</nr-rej>
+  		<marka>Nissan</marka>
+  		<model>Micra</model>
+  		<nadwozie>Kombi</nadwozie>
+  		<rocznik>2013</rocznik>
+  		<kolor>Szary</kolor>
+  		<ilosc-miejsc>5</ilosc-miejsc>
+  		<moc>105</moc>
+  	</samochod>
+  	<samochod>
+  		<nr-rej>NO3939</nr-rej>
+  		<marka>Ford</marka>
+  		<model>Fiesta</model>
+  		<nadwozie>Roadster</nadwozie>
+  		<rocznik>2010</rocznik>
+  		<kolor>Granatowy</kolor>
+  		<ilosc-miejsc>5</ilosc-miejsc>
+  		<moc>115</moc>
+  	</samochod>
+  	<samochod>
+  		<nr-rej>NOL12456</nr-rej>
+  		<marka>Volvo</marka>
+  		<model>X300</model>
+  		<nadwozie>Hatchback</nadwozie>
+  		<rocznik>2015</rocznik>
+  		<kolor>Czarny</kolor>
+  		<ilosc-miejsc>5</ilosc-miejsc>
+  		<moc>225</moc>
+  	</samochod>
+  </samochody>
+
+  <osoby>
+  	<osoba plec="m">
+      <zdjecie>Janusz.png</zdjecie>
+  		<imie>Janusz</imie>
+  		<nazwisko>Bączyński</nazwisko>
+      <data-ur>1989-12-02</data-ur>
+  		<adres>
+  	      <miejscowosc>Olsztyn</miejscowosc>
+  	      <ulica>Grunwaldzka</ulica>
+  	      <nr-domu>12</nr-domu>
+      </adres>
+      <login>janusz12345</login>
+      <hasło>haslo123</hasło>
+      <pesel>89120212345</pesel>
+      <nr-dowodu>AAA123456</nr-dowodu>
+      <wypozyczenie>
+        <idPoj>NMR3582</idPoj>
+        <data-wypozyczenia>2017-05-15</data-wypozyczenia>
+        <data-zwrotu>2017-05-16</data-zwrotu>
+      </wypozyczenie>
+  	</osoba>
+  	<osoba plec="k">
+      <zdjecie>Zoska.png</zdjecie>
+  		<imie>Zofia</imie>
+  		<nazwisko>Narwana</nazwisko>
+      <data-ur>1990-01-01</data-ur>
+  		<adres>
+  	      <miejscowosc>Mrągowo</miejscowosc>
+  	      <ulica>Krosna</ulica>
+  	      <nr-domu>15/4</nr-domu>
+      </adres>
+      <login>zoska123</login>
+      <hasło>pasvort123</hasło>
+      <pesel>90010111111</pesel>
+      <nr-dowodu>BBB111111</nr-dowodu>
+      <wypozyczenie>
+        <idPoj>NO3939</idPoj>
+        <data-wypozyczenia>2017-05-17</data-wypozyczenia>
+      	<data-zwrotu>2017-05-19</data-zwrotu>
+      </wypozyczenie>
+  	</osoba>
+  	<osoba plec="m">
+      <zdjecie>Juras.png</zdjecie>
+  		<imie>Jerzy</imie>
+  		<nazwisko>Jerzyński</nazwisko>
+      <data-ur>1984-11-11</data-ur>
+  		<adres>
+  	      <miejscowosc>Bartoszyce</miejscowosc>
+  	      <ulica>Staszica</ulica>
+  	      <nr-domu>2</nr-domu>
+      	</adres>
+      	<login>juras123</login>
+      	<hasło>jureczelhaslo111</hasło>
+      	<pesel>84111112345</pesel>
+      	<nr-dowodu>CBA987654</nr-dowodu>
+        <wypozyczenie>
+          <idPoj>NMR3582</idPoj>
+        	<data-wypozyczenia>2017-04-12</data-wypozyczenia>
+        	<data-zwrotu>2017-04-13</data-zwrotu>
+        </wypozyczenie>
+        <wypozyczenie>
+          <idPoj>NO3939</idPoj>
+        	<data-wypozyczenia>2017-04-22</data-wypozyczenia>
+        	<data-zwrotu>2017-04-23</data-zwrotu>
+        </wypozyczenie>
+  	</osoba>
+  </osoby>
+
+
+</wypozyczalnia>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osoby>
+  <osoba idOsoby="1">
+    <imie>Ozjasz</imie>
+    <nazwisko>Goldbaum</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Grunwaldzka</ulica>
+      <nr-mieszkania>9A/13</nr-mieszkania>
+      <miasto>Gdynia</miasto>
+      <kod-pocztowy>10-149</kod-pocztowy>
+    </dane-teleadresowe>
+    <login>ozjaszek479</login>
+    <haslo>haslo1</haslo>
+    <nr-dowodu>ABS 123456</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="2">
+    <imie>Adrian</imie>
+    <nazwisko>Fisherman</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Niska</ulica>
+      <nr-mieszkania>125</nr-mieszkania>
+      <miasto>Gdynia</miasto>
+      <kod-pocztowy>89-256</kod-pocztowy>
+    </dane-teleadresowe>
+    <login>slodkiadi2000</login>
+    <haslo>KochamPieski11</haslo>
+    <nr-dowodu>HUF 987652</nr-dowodu>
+    <prawo-jazdy-kategoria>B+E</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="3">
+    <imie>Bernadeta</imie>
+    <nazwisko>Handerbrum</nazwisko>
+    <plec>K</plec>
+    <dane-teleadresowe>
+      <ulica>Jasna</ulica>
+      <nr-mieszkania>125B/4</nr-mieszkania>
+      <miasto>Sopot</miasto>
+      <kod-pocztowy>88-234</kod-pocztowy>
+    </dane-teleadresowe>
+    <login>bernikruszyna</login>
+    <haslo>12345</haslo>
+    <nr-dowodu>BAM 376489</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="4">
+    <imie>Mieczyslaw</imie>
+    <nazwisko>Truskawa</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Wiejska</ulica>
+      <nr-mieszkania>9A/13</nr-mieszkania>
+      <miasto>Gdynia</miasto>
+      <kod-pocztowy>87-154</kod-pocztowy>
+    </dane-teleadresowe>
+    <login>mietek13</login>
+    <haslo>LubieSwojeKrowy</haslo>
+    <nr-dowodu>CBA 421095</nr-dowodu>
+    <prawo-jazdy-kategoria>C</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="5">
+    <imie>Wilhelm</imie>
+    <nazwisko>Grubfraud</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Owcza</ulica>
+      <nr-mieszkania>11</nr-mieszkania>
+      <miasto>Gdansk</miasto>
+      <kod-pocztowy>56-131</kod-pocztowy>
+    </dane-teleadresowe>
+    <login>wilczurpolska</login>
+    <haslo>A3Cfe32As</haslo>
+    <nr-dowodu>DAQ 248765</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="6">
+    <imie>Tatiana</imie>
+    <nazwisko>Koprobijec</nazwisko>
+    <plec>K</plec>
+    <dane-teleadresowe>
+      <ulica>Pomorska</ulica>
+      <nr-mieszkania>1/1</nr-mieszkania>
+      <miasto>Sopot</miasto>
+      <kod-pocztowy>88-123</kod-pocztowy>
+    </dane-teleadresowe>
+    <login>tkoprobijec</login>
+    <haslo>3456321a</haslo>
+    <nr-dowodu>SAP 342134</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+
+</osoby>

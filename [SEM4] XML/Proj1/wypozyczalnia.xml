@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wypozyczalnia>
+<samochody>
+  <samochod>
+    <marka>Audi</marka>
+    <model>A5</model>
+    <nr-rejestracyjny>GDA 87564</nr-rejestracyjny>
+    <przebieg jednostka="km">5000</przebieg>
+    <rocznik>2008</rocznik>
+    <zuzycie-paliwa jednostka="l/100km">9.2</zuzycie-paliwa>
+    <moc jednostka="KM">354</moc>
+    <pojemnosc-osob>5</pojemnosc-osob>
+    <id>1</id>
+  </samochod>
+  <samochod>
+    <marka>BMW</marka>
+    <model>i8</model>
+    <nr-rejestracyjny>GD 0987K</nr-rejestracyjny>
+    <przebieg jednostka="km">2000</przebieg>
+    <rocznik>2015</rocznik>
+    <zuzycie-paliwa jednostka="l/100km">11.2</zuzycie-paliwa>
+    <moc jednostka="KM">750</moc>
+    <pojemnosc-osob>4</pojemnosc-osob>
+    <id>2</id>
+  </samochod>
+  <samochod>
+    <marka>Citroen</marka>
+    <model>C4</model>
+    <nr-rejestracyjny>GDA 1234H</nr-rejestracyjny>
+    <przebieg jednostka="km">8500</przebieg>
+    <rocznik>2007</rocznik>
+    <zuzycie-paliwa jednostka="l/100km">6.9</zuzycie-paliwa>
+    <moc jednostka="KM">200</moc>
+    <pojemnosc-osob>8</pojemnosc-osob>
+    <id>3</id>
+  </samochod>
+  <samochod>
+    <marka>Fiat</marka>
+    <model>500</model>
+    <nr-rejestracyjny>GSP 9876G</nr-rejestracyjny>
+    <przebieg jednostka="km">10000</przebieg>
+    <rocznik>2007</rocznik>
+    <zuzycie-paliwa jednostka="l/100km">8.0</zuzycie-paliwa>
+    <moc jednostka="KM">125</moc>
+    <pojemnosc-osob>2</pojemnosc-osob>
+    <id>4</id>
+  </samochod>
+  <samochod>
+    <marka>Ford</marka>
+    <model>Focus</model>
+    <nr-rejestracyjny>GDA 76543</nr-rejestracyjny>
+    <przebieg jednostka="km">14500</przebieg>
+    <rocznik>2003</rocznik>
+    <zuzycie-paliwa jednostka="l/100km">7.2</zuzycie-paliwa>
+    <moc jednostka="KM">200</moc>
+    <pojemnosc-osob>5</pojemnosc-osob>
+    <id>5</id>
+  </samochod>
+  <samochod>
+    <marka>Mazda</marka>
+    <model>2</model>
+    <nr-rejestracyjny>GD 1928K</nr-rejestracyjny>
+    <przebieg jednostka="km">5200</przebieg>
+    <rocznik>2010</rocznik>
+    <zuzycie-paliwa jednostka="l/100km">10.2</zuzycie-paliwa>
+    <moc jednostka="KM">115</moc>
+    <pojemnosc-osob>5</pojemnosc-osob>
+    <id>6</id>
+  </samochod>
+</samochody>
+<osoby>
+  <osoba idOsoby="1">
+    <imie>Ozjasz</imie>
+    <nazwisko>Goldbaum</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Grunwaldzka</ulica>
+      <nr-mieszkania>9A/13</nr-mieszkania>
+      <miasto>Gdynia</miasto>
+      <kod-pocztowy>10-149</kod-pocztowy>
+      <telefon>657980234</telefon>
+      <email>ozjasz@gmail.com</email>
+    </dane-teleadresowe>
+    <login>ozjaszek479</login>
+    <haslo>haslo1</haslo>
+    <nr-dowodu>ABS123456</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-08</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-05-18</dataWypozyczenia>
+			  <dataZwrotu>2014-05-19</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="3">
+			  <dataWypozyczenia>2014-06-08</dataWypozyczenia>
+			  <dataZwrotu>2014-06-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="2">
+    <imie>Adrian</imie>
+    <nazwisko>Fisherman</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Niska</ulica>
+      <nr-mieszkania>125</nr-mieszkania>
+      <miasto>Gdynia</miasto>
+      <kod-pocztowy>89-256</kod-pocztowy>
+      <telefon>543879012</telefon>
+      <email>adi.fisherman@wp.pl</email>
+    </dane-teleadresowe>
+    <login>slodkiadi2000</login>
+    <haslo>KochamPieski11</haslo>
+    <nr-dowodu>HUF987652</nr-dowodu>
+    <prawo-jazdy-kategoria>B+E</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="6">
+			  <dataWypozyczenia>2014-04-09</dataWypozyczenia>
+			  <dataZwrotu>2014-04-10</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="3">
+    <imie>Bernadeta</imie>
+    <nazwisko>Handerbrum</nazwisko>
+    <plec>K</plec>
+    <dane-teleadresowe>
+      <ulica>Jasna</ulica>
+      <nr-mieszkania>125B/4</nr-mieszkania>
+      <miasto>Sopot</miasto>
+      <kod-pocztowy>88-234</kod-pocztowy>
+      <telefon>876543012</telefon>
+      <email>bernadetka1234@02.pl</email>
+    </dane-teleadresowe>
+    <login>bernikruszyna</login>
+    <haslo>12345</haslo>
+    <nr-dowodu>BAM376489</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-04-20</dataWypozyczenia>
+			  <dataZwrotu>2014-04-22</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="4">
+			  <dataWypozyczenia>2014-05-20</dataWypozyczenia>
+			  <dataZwrotu>2014-05-23</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="4">
+    <imie>Mieczyslaw</imie>
+    <nazwisko>Truskawa</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Wiejska</ulica>
+      <nr-mieszkania>9A/13</nr-mieszkania>
+      <miasto>Gdynia</miasto>
+      <kod-pocztowy>87-154</kod-pocztowy>
+      <telefon>609321456</telefon>
+      <email>miecio321@onet.pl</email>
+    </dane-teleadresowe>
+    <login>mietek13</login>
+    <haslo>LubieSwojeKrowy</haslo>
+    <nr-dowodu>CBA421095</nr-dowodu>
+    <prawo-jazdy-kategoria>C</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-02-08</dataWypozyczenia>
+			  <dataZwrotu>2014-02-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-03-08</dataWypozyczenia>
+			  <dataZwrotu>2014-03-08</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-03-18</dataWypozyczenia>
+			  <dataZwrotu>2014-03-20</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="5">
+    <imie>Wilhelm</imie>
+    <nazwisko>Grubfraud</nazwisko>
+    <plec>M</plec>
+    <dane-teleadresowe>
+      <ulica>Owcza</ulica>
+      <nr-mieszkania>11</nr-mieszkania>
+      <miasto>Gdansk</miasto>
+      <kod-pocztowy>56-131</kod-pocztowy>
+      <telefon>589321746</telefon>
+      <email>cytrynakomina@gmail.com</email>
+    </dane-teleadresowe>
+    <login>wilczurpolska</login>
+    <haslo>A3Cfe32As</haslo>
+    <nr-dowodu>DAQ248765</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="2">
+			  <dataWypozyczenia>2014-01-01</dataWypozyczenia>
+			  <dataZwrotu>2014-01-11</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+  <osoba idOsoby="6">
+    <imie>Tatiana</imie>
+    <nazwisko>Koprobijec</nazwisko>
+    <plec>K</plec>
+    <dane-teleadresowe>
+      <ulica>Pomorska</ulica>
+      <nr-mieszkania>1/1</nr-mieszkania>
+      <miasto>Sopot</miasto>
+      <kod-pocztowy>88-123</kod-pocztowy>
+      <telefon>745321698</telefon>
+      <email>tatiana.koprobijec@gmail.com</email>
+    </dane-teleadresowe>
+    <login>tkoprobijec</login>
+    <haslo>3456321a</haslo>
+    <nr-dowodu>SAP342134</nr-dowodu>
+    <prawo-jazdy-kategoria>B</prawo-jazdy-kategoria>
+    <wypozyczenia>
+		  <wypozyczenie idSamochodu="4">
+			  <dataWypozyczenia>2014-08-08</dataWypozyczenia>
+			  <dataZwrotu>2014-08-10</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="1">
+			  <dataWypozyczenia>2014-08-11</dataWypozyczenia>
+			  <dataZwrotu>2014-08-13</dataZwrotu>
+		  </wypozyczenie>
+		  <wypozyczenie idSamochodu="5">
+			  <dataWypozyczenia>2014-08-14</dataWypozyczenia>
+			  <dataZwrotu>2014-08-16</dataZwrotu>
+		  </wypozyczenie>
+	  </wypozyczenia>
+  </osoba>
+</osoby>
+</wypozyczalnia>

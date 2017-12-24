@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListaKlawiatur>
+  <klawiatura>
+   <producent>A4-TECH</producent>
+   <model>KL-5 X Slim USB</model>
+   <gwarancja czas="lata">2</gwarancja>
+   <komunikacja>przewodowa</komunikacja>
+   <typ>płaska</typ>
+   <wersja>BOX</wersja>
+   <kolor>srebrno-czarny</kolor>
+   <oprogramowanie>IkeyWorks</oprogramowanie>
+  </klawiatura>
+
+  <klawiatura>
+   <producent>Logitech</producent>
+   <model>K360</model>
+   <gwarancja czas="lata">3</gwarancja>
+   <komunikacja>bezprzewodowa</komunikacja>
+   <typ>płaska</typ>
+   <wersja>BOX</wersja>
+   <kolor>srebrno-czarny</kolor>
+   <oprogramowanie>IkeyWorks</oprogramowanie>
+ </klawiatura>
+
+  <klawiatura>
+   <producent>Rapoo</producent>
+   <model>E6300</model>
+   <gwarancja czas="lata">2</gwarancja>
+   <komunikacja>bezprzewodowa</komunikacja>
+   <typ>płaska</typ>
+   <wersja>BOX</wersja>
+   <kolor>bialy</kolor>
+   <oprogramowanie>IkeyWorks</oprogramowanie>
+ </klawiatura>
+</ListaKlawiatur>

@@ -1,0 +1,108 @@
+#include <stdio.h>
+int sprawdz();
+int silniaIt();
+int silniaRek();
+int n;
+int main(void)#include <stdio.h>
+int sprawdz();
+int silniaIt();
+int silniaRek();
+int n;
+int main(void)
+{
+int x;
+puts("Jezeli chcesz obliczyc silnie iteracyjnie wpisz 1.");
+puts("Jezeli chcesz obliczyc silnie rekurencyjnie wpisz 2.");
+scanf("%d", &x);
+  switch(x)
+  {
+  case 1:
+  silniaIT();
+  break;
+
+  case 2:
+  silniaRek();
+  break;
+  }
+
+
+
+return 0;
+}
+
+int sprawdz()
+{
+
+{
+int x;
+puts("Jezeli chcesz obliczyc silnie iteracyjnie wpisz 1.");
+puts("Jezeli chcesz obliczyc silnie rekurencyjnie wpisz 2.");
+#include <stdio.h>
+int sprawdz();
+int silniaIt();
+int silniaRek();
+int n;
+int main(void)#include <stdio.h>
+int sprawdz();
+int silniaIt();
+int silniaRek();
+int n;
+int main(void)
+{
+int x;
+puts("Jezeli chcesz obliczyc silnie iteracyjnie wpisz 1.");
+puts("Jezeli chcesz obliczyc silnie rekurencyjnie wpisz 2.");
+scanf("%d", &x);
+  switch(x)
+  {
+  case 1:
+  silniaIT();
+  break;
+
+  case 2:
+  silniaRek();
+  break;
+  }
+
+
+
+return 0;
+}
+
+int sprawdz()
+{
+
+{
+int x;
+puts("Jezeli chcesz obliczyc silnie iteracyjnie wpisz 1.");
+puts("Jezeli chcesz obliczyc silnie rekurencyjnie wpisz 2.");
+scanf("%d", &x);
+  switch(x)
+  {
+  case 1:
+  silniaIT();
+  break;
+
+  case 2:
+  silniaRek();
+  break;
+  }
+
+
+
+return 0;
+}
+
+int sprawdz()
+{
+
+}
+int silniaIt()
+{
+
+}
+int silniaRek()
+{
+
+}
+

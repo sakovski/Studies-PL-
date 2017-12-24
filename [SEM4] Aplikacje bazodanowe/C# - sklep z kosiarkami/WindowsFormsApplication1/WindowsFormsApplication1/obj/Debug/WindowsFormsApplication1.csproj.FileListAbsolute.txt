@@ -1,0 +1,26 @@
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Start.resources
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Klient.resources
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Kosiarka.resources
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Producent.resources
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Transakcja.resources
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Programowanie\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Start.resources
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Klient.resources
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Kosiarka.resources
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Producent.resources
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Transakcja.resources
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Programowanie\[SEM2] aplikacjebizesowe\c#\Zaliczenie - sklep z kosiarkami\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

@@ -1,0 +1,15 @@
+<!ENTITY % dane_ksiazki "tytul?, autor, opis">
+<!ELEMENT biblioteka   (ksiazka, ksiazka, ksiazka, ksiazka,
+                      ksiazka, dzial, dzial, dzial)>
+
+<!ELEMENT ksiazka     (%dane_ksiazki;)>
+<!ELEMENT tytul      (#PCDATA)>
+<!ELEMENT autor      (#PCDATA)>
+<!ELEMENT opis		 (#PCDATA)>
+<!ATTLIST ksiazka id ID #REQUIRED>
+<!ATTLIST ksiazka dzial IDREF #REQUIRED>
+<!ATTLIST ksiazka oprawa (twarda|miekka) #REQUIRED>
+<!ATTLIST ksiazka opcja CDATA #IMPLIED>
+<!ELEMENT dzial      (#PCDATA)>
+<!ATTLIST dzial kod ID #REQUIRED>
+

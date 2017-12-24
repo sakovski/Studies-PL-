@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<osoby>
+  <osoba plec="Man">
+    <imie>Adrian</imie>
+    <nazwisko>Fisherman</nazwisko>
+    <adres>
+      <miejscowosc>Gdynia</miejscowosc>
+      <ulica>ArkiGdynia</ulica>
+      <nr-domu>13</nr-domu>
+    </adres>
+    <telefony>
+      <tel-stac>123456789</tel-stac>
+      <tel-kom>987654321</tel-kom>
+    </telefony>
+  </osoba>
+  <osoba plec="Man">
+    <imie>Ozjasz</imie>
+    <nazwisko>Goldbaum</nazwisko>
+    <adres>
+      <miejscowosc>Gdansk</miejscowosc>
+      <ulica>LechiGdansk</ulica>
+      <nr-domu>314</nr-domu>
+    </adres>
+    <telefony>
+      <tel-stac>192837465</tel-stac>
+      <tel-kom>918273645</tel-kom>
+    </telefony>
+  </osoba>
+</osoby>
