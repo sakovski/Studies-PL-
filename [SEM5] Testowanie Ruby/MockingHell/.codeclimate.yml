@@ -1,0 +1,23 @@
+version: "2"
+plugins:
+  rubocop:
+    enabled: true
+  eslint:
+    enabled: false
+  csslint:
+    enabled: true
+  duplication:
+    enabled: false
+    languages:
+      - ruby
+
+exclude_patterns:
+- spec/**/*
+
+checks:
+  method-complexity:
+    config:
+      threshold: 20
+  method-lines:
+    config:
+      threshold: 50

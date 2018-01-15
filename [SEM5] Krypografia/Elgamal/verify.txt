@@ -1,0 +1,1 @@
+Podpis pod wiadomoscia zapisana w pliku message.txt jest poprawny
