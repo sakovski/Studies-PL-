@@ -1,0 +1,13 @@
+﻿@if (Session["UserID"] != null && (Session["UserRole"].Equals(Sklep.Models.DbModels.RoleType.Producer.ToString()) || Session["UserRole"].Equals(Sklep.Models.DbModels.RoleType.Admin.ToString())))
+{
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Producer panel
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+            <li>@Html.ActionLink("Manage Movies", "Index", "Movies")</li>
+            <li>@Html.ActionLink("Manage Directors", "Index", "Directors")</li>
+        </ul>
+    </li>
+}

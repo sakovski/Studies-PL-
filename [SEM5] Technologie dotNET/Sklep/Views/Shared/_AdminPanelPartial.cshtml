@@ -1,0 +1,13 @@
+﻿@if (Session["UserID"] != null && Session["UserRole"].Equals(Sklep.Models.DbModels.RoleType.Admin.ToString()))
+{
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Admin panel
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+            <li>@Html.ActionLink("Manage Users", "Index", "UserAccounts")</li>
+            <li>@Html.ActionLink("Movies chart", "GetMoviesChart", "Movies")</li>
+        </ul>
+    </li>
+}

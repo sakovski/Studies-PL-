@@ -1,0 +1,70 @@
+﻿@model Sklep.Models.DbModels.Movie
+
+@{
+    ViewBag.Title = "MovieDetails";
+}
+
+<h2>@Html.DisplayFor(model => model.Title)</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Director
+        </dt>
+
+        <dd>
+            @Html.ActionLink(Model.Director.FirstName + " " + Model.Director.LastName, "DirectorDetails", new { id = Model.DirectorId })
+        </dd> 
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Genre.GenreName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Genre.GenreName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Language)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Language)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Minutes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Minutes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+    </dl>
+</div>
+

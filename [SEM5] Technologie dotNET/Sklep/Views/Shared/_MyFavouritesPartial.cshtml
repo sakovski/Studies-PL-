@@ -1,0 +1,4 @@
+﻿@if (Session["UserID"] != null)
+{
+    <li>@Html.ActionLink("My favourites", "UserFavourites", "User")</li>
+}

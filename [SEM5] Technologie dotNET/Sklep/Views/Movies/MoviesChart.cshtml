@@ -1,0 +1,21 @@
+﻿@model Sklep.Models.ViewModels.MoviesChart
+
+@using Sklep.Models.Helpers
+@{
+    ViewBag.Title = "MoviesChart";
+}
+
+<h2>Movies Chart</h2>
+@using (Html.BeginForm())
+{
+    @Html.Chart("MoviesChart", Model.Data, "Genre", "Movies")
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(function () {
+            barChart();
+        });
+    </script>
+}
