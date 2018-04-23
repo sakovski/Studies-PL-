@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mscorlib.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Fakes.ShimDateTime">
+            <summary>Typ podkładki dla System.DateTime</summary>
+        </member>
+        <member name="M:System.Fakes.ShimDateTime.#ctor">
+            <summary>Inicjuje nowe wystąpienie podkładki</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.AdditionOpDateTimeTimeSpan">
+            <summary>Ustawia element podkładka dla: DateTime.op_Addition(DateTime d, TimeSpan t)</summary>
+        </member>
+        <member name="T:System.Fakes.ShimDateTime.AllInstances">
+            <summary>Definiowanie podkładek dla wszystkich składowych wystąpień</summary>
+        </member>
+        <member name="M:System.Fakes.ShimDateTime.BehaveAsCurrent">
+            <summary>Przypisuje zachowanie „Current” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:System.Fakes.ShimDateTime.BehaveAsNotImplemented">
+            <summary>Przypisuje zachowanie „NotImplemented” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.Behavior">
+            <summary>Przypisuje zachowanie dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.CompareDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.Compare(DateTime t1, DateTime t2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.DateToTicksInt32Int32Int32">
+            <summary>Ustawia element podkładka dla: DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.DaysInMonthInt32Int32">
+            <summary>Ustawia element podkładka dla: DateTime.DaysInMonth(Int32 year, Int32 month)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.DoubleDateToTicksDouble">
+            <summary>Ustawia element podkładka dla: DateTime.DoubleDateToTicks(Double value)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.EqualityOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_Equality(DateTime d1, DateTime d2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.EqualsDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.Equals(DateTime t1, DateTime t2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.FromBinaryInt64">
+            <summary>Ustawia element podkładka dla: DateTime.FromBinary(Int64 dateData)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.FromBinaryRawInt64">
+            <summary>Ustawia element podkładka dla: DateTime.FromBinaryRaw(Int64 dateData)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.FromFileTimeInt64">
+            <summary>Ustawia element podkładka dla: DateTime.FromFileTime(Int64 fileTime)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.FromFileTimeUtcInt64">
+            <summary>Ustawia element podkładka dla: DateTime.FromFileTimeUtc(Int64 fileTime)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.FromOADateDouble">
+            <summary>Ustawia element podkładka dla: DateTime.FromOADate(Double d)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.GreaterThanOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_GreaterThan(DateTime t1, DateTime t2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.GreaterThanOrEqualOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_GreaterThanOrEqual(DateTime t1, DateTime t2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.InequalityOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_Inequality(DateTime d1, DateTime d2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.IsLeapYearInt32">
+            <summary>Ustawia element podkładka dla: DateTime.IsLeapYear(Int32 year)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.LessThanOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_LessThan(DateTime t1, DateTime t2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.LessThanOrEqualOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_LessThanOrEqual(DateTime t1, DateTime t2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.NowGet">
+            <summary>Ustawia element podkładka dla: DateTime.get_Now()</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.ParseExactStringStringArrayIFormatProviderDateTimeStyles">
+            <summary>Ustawia element podkładka dla: DateTime.ParseExact(String s, String[] formats, IFormatProvider provider, DateTimeStyles style)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.ParseExactStringStringIFormatProvider">
+            <summary>Ustawia element podkładka dla: DateTime.ParseExact(String s, String format, IFormatProvider provider)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.ParseExactStringStringIFormatProviderDateTimeStyles">
+            <summary>Ustawia element podkładka dla: DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.ParseString">
+            <summary>Ustawia element podkładka dla: DateTime.Parse(String s)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.ParseStringIFormatProvider">
+            <summary>Ustawia element podkładka dla: DateTime.Parse(String s, IFormatProvider provider)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.ParseStringIFormatProviderDateTimeStyles">
+            <summary>Ustawia element podkładka dla: DateTime.Parse(String s, IFormatProvider provider, DateTimeStyles styles)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.SpecifyKindDateTimeDateTimeKind">
+            <summary>Ustawia element podkładka dla: DateTime.SpecifyKind(DateTime value, DateTimeKind kind)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.StaticConstructor">
+            <summary>Ustawia element podkładka dla: DateTime.DateTime()</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.SubtractionOpDateTimeDateTime">
+            <summary>Ustawia element podkładka dla: DateTime.op_Subtraction(DateTime d1, DateTime d2)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.SubtractionOpDateTimeTimeSpan">
+            <summary>Ustawia element podkładka dla: DateTime.op_Subtraction(DateTime d, TimeSpan t)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TicksToOADateInt64">
+            <summary>Ustawia element podkładka dla: DateTime.TicksToOADate(Int64 value)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TimeToTicksInt32Int32Int32">
+            <summary>Ustawia element podkładka dla: DateTime.TimeToTicks(Int32 hour, Int32 minute, Int32 second)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TodayGet">
+            <summary>Ustawia element podkładka dla: DateTime.get_Today()</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TryCreateInt32Int32Int32Int32Int32Int32Int32DateTimeOut">
+            <summary>Ustawia element podkładka dla: DateTime.TryCreate(Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second, Int32 millisecond, DateTime&amp; result)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TryParseExactStringStringArrayIFormatProviderDateTimeStylesDateTimeOut">
+            <summary>Ustawia element podkładka dla: DateTime.TryParseExact(String s, String[] formats, IFormatProvider provider, DateTimeStyles style, DateTime&amp; result)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TryParseExactStringStringIFormatProviderDateTimeStylesDateTimeOut">
+            <summary>Ustawia element podkładka dla: DateTime.TryParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style, DateTime&amp; result)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TryParseStringDateTimeOut">
+            <summary>Ustawia element podkładka dla: DateTime.TryParse(String s, DateTime&amp; result)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.TryParseStringIFormatProviderDateTimeStylesDateTimeOut">
+            <summary>Ustawia element podkładka dla: DateTime.TryParse(String s, IFormatProvider provider, DateTimeStyles styles, DateTime&amp; result)</summary>
+        </member>
+        <member name="P:System.Fakes.ShimDateTime.UtcNowGet">
+            <summary>Ustawia element podkładka dla: DateTime.get_UtcNow()</summary>
+        </member>
+    </members>
+</doc>

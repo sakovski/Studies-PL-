@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import junitparams.*;
+
+@RunWith(JUnitParamsRunner.class)
+public class QuadraticFunctionTest {
+
+	@Test
+	@FileParameters("src/test/resources/JunitParamsTestParameters.csv")
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

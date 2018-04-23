@@ -1,0 +1,19 @@
+
+public class Table {
+	
+	public int[] table;
+	
+	public Table(int[] table) {
+		this.table = table;
+	}
+	
+	public int largest(Table t) {
+		
+	}
+	public int smallest(Table t) {
+		
+	}
+	public boolean isSorted(Table t) {
+		
+	}
+}

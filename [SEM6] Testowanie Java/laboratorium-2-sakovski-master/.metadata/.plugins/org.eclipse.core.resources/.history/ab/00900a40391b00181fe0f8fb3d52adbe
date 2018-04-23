@@ -1,0 +1,45 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class FriendshipsTest {
+	
+	private Friendships friendships;
+	
+	@Before
+	public void setUp() {
+		friendships = new Friendships();
+		friendships.makeFriends("Jurek", "Marek");
+		friendships.makeFriends("Jurek", "Tomek");
+		friendships.makeFriends("Jurek", "Kamil");
+		friendships.makeFriends("Jurek", "¯yrard");
+		friendships.makeFriends("Kamil", "Marek");
+		friendships.makeFriends("Rafa³", "Pawe³");
+	}
+	
+	@Test
+	public void areFriendsTrueTest() {
+		assertTrue(friendships.areFriends("Jurek", "Marek"));
+	}
+	
+	@Test
+	public void areFriendsFalseTest() {
+		assertFalse(friendships.areFriends("Jurek", "Pawe³"));
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void redundantFriendshipTest() {
+		friendships.makeFriends("Jurek", "Marek");
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void EmptyPersonStringTest() {
+		friendships.makeFriends("", "Marek");
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void EmptyPersonStringTest() {
+		friendships.makeFriends("", "Marek");
+	}
+}

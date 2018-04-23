@@ -1,0 +1,70 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class StringOperations {
+	
+  public String reverse(String a) {
+	  List<String> tempArray = new ArrayList<String> (a.length());
+	  for (int i=0; i< a.length(); i++) {
+		  tempArray.add(a.substring(i, i+1));
+	  }
+	  StringBuilder reversedString = new StringBuilder(a.length());
+	  for (int i = tempArray.size()-1; i>=0; i--) {
+		  reversedString.append(tempArray.get(i));
+	  }
+	  return reversedString.toString();
+  }
+  
+  public String concat(String a, String b) {
+	  a = a.toLowerCase();
+	  b = b.toLowerCase();
+	  String retVal = "";
+	    if (a != null && a.length() > 0) {
+	      StringBuilder sb = new StringBuilder();
+	      sb.append(a);
+	        if (b != null) {
+	          sb.append(b);
+	        }
+	      retVal = sb.toString();
+	    }
+	    else
+	    	return b;
+	     return retVal;
+  }
+  
+  public List<String> createPairsOfStrings(String a)
+  {
+	  List<String> listString = new ArrayList<String>();
+	  for(int i = 0; i < a.length(); i++)
+	  {
+		  if(i != a.length()-1)
+		  {
+			  String pair = a.substring(i, i+2);
+			  listString.add(pair);
+			  i++;
+		  }
+		  else
+		  {
+			  listString.add(String.valueOf(a.charAt(i)));
+		  }
+		  
+	  }
+	  if(!listString.isEmpty())
+		  return listString;
+	  else
+		  return null;
+  }
+  
+  public boolean isPalindrome(String a) {
+	  a = a.toLowerCase();
+	  System.out.println(a);
+	  if(a.length()<=1){
+			return true;
+		}
+	  if(!(a.charAt(0)+"").equals(a.charAt(a.length()-1)+"")){
+			return false;
+		}
+		return isPalindrome(a.substring(1, a.length()-1));
+  }
+  
+}

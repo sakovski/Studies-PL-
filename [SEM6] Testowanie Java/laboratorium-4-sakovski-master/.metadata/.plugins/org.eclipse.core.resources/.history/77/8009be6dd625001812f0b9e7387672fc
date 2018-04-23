@@ -1,0 +1,98 @@
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class StringOperationsTest {
+	
+	private static StringOperations operations;
+	
+	@BeforeClass
+	public static void setUp()
+	{
+		operations = new StringOperations();
+	}
+	
+	@Test
+	public void reverseEmptyStringTest() {
+		assertThat(operations.reverse(""), equalTo(""));
+	}
+	
+	@Test
+	public void reverseLongStringTest() {
+		assertThat(operations.reverse("reverse"), equalTo("esrever"));
+	}
+	
+	@Test
+	public void reversePalindromeTest() {
+		assertTrue(operations.reverse("kajak").contains("kajak"));
+	}
+	
+	@Test
+	public void concatLongStringsTest() {
+		assertThat(operations.concat("first", "second"), allOf(is("firstsecond"), containsString("first")));
+	}
+	
+	@Test
+	public void concatLongStringsReversedTest() {
+		assertThat(operations.concat("second", "first"), is("secondfirst"));
+	}
+	
+	@Test
+	public void concatEmptyStringsTest() {
+		assertThat(operations.concat("", ""), blankString());
+	}
+	
+	@Test
+	public void isPalindromeEmptyStringTest() {
+		assertTrue(operations.isPalindrome(""));
+	}
+	
+	@Test
+	public void isPalindromeOneCharStringTest() {
+		assertTrue(operations.isPalindrome("a"));
+	}
+	
+	@Test
+	public void isPalindromeShouldBeFalseTest() {
+		assertFalse(operations.isPalindrome("gdansk"));
+	}
+	
+	@Test
+	public void isPalindromeShouldBeTrueTest() {
+		assertTrue(operations.isPalindrome("anna"));
+	}
+	
+	@Test
+	public void isPalindromeShouldBeTrue2Test() {
+		assertTrue(operations.isPalindrome("kajak"));
+	}
+	
+	@Test
+	public void createPairsOfStringsEvenTest()
+	{
+		assertThat(operations.createPairsOfStrings("abcdef"), contains("ab", "cd", "ef"));
+	}
+	
+	@Test
+	public void createPairsOfStringsOddTest()
+	{
+		assertThat(operations.createPairsOfStrings("abcde"), contains("ab", "cd", "e"));
+	}
+	
+	@Test
+	public void createPairsOfStringsEmptyStringTest()
+	{
+		assertThat(operations.createPairsOfStrings(""), equalTo([]));
+	}
+	
+	@AfterClass
+	public static void tearDonw()
+	{
+		operations = null;
+	}
+}

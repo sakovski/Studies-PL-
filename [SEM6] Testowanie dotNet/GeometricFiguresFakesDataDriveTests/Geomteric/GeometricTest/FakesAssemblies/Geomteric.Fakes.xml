@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Geomteric.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Geometric.Fakes.ShimCircle">
+            <summary>Shim type of Geometric.Circle</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimCircle.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimCircle.#ctor(Geometric.Circle)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimCircle.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.AllInstances.RGet">
+            <summary>Sets the shim of Circle.get_R()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.AllInstances.RSetDouble">
+            <summary>Sets the shim of Circle.set_R(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.AllInstances.ToString01">
+            <summary>Sets the shim of Circle.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.AllInstances.countCircuit">
+            <summary>Sets the shim of Circle.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.AllInstances.countSurface">
+            <summary>Sets the shim of Circle.countSurface()</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimCircle.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimCircle.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimCircle.Bind(Geometric.IGeometricFigure)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.ConstructorDouble">
+            <summary>Sets the shim of Circle.Circle(Double r)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.RGet">
+            <summary>Sets the shim of Circle.get_R()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.RSetDouble">
+            <summary>Sets the shim of Circle.set_R(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.ToString">
+            <summary>Sets the shim of Circle.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.countCircuit">
+            <summary>Sets the shim of Circle.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimCircle.countSurface">
+            <summary>Sets the shim of Circle.countSurface()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimGeometricFiguresAnalyzer">
+            <summary>Shim type of Geometric.GeometricFiguresAnalyzer</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimGeometricFiguresAnalyzer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimGeometricFiguresAnalyzer.#ctor(Geometric.GeometricFiguresAnalyzer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimGeometricFiguresAnalyzer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimGeometricFiguresAnalyzer.AllInstances.compareCiruits">
+            <summary>Sets the shim of GeometricFiguresAnalyzer.compareCiruits()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimGeometricFiguresAnalyzer.AllInstances.compareSurfaces">
+            <summary>Sets the shim of GeometricFiguresAnalyzer.compareSurfaces()</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimGeometricFiguresAnalyzer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimGeometricFiguresAnalyzer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimGeometricFiguresAnalyzer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimGeometricFiguresAnalyzer.ConstructorIGeometricFigureIGeometricFigure">
+            <summary>Sets the shim of GeometricFiguresAnalyzer.GeometricFiguresAnalyzer(IGeometricFigure f1, IGeometricFigure f2)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimGeometricFiguresAnalyzer.compareCiruits">
+            <summary>Sets the shim of GeometricFiguresAnalyzer.compareCiruits()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimGeometricFiguresAnalyzer.compareSurfaces">
+            <summary>Sets the shim of GeometricFiguresAnalyzer.compareSurfaces()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimRectangle">
+            <summary>Shim type of Geometric.Rectangle</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimRectangle.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimRectangle.#ctor(Geometric.Rectangle)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AGet">
+            <summary>Sets the shim of Rectangle.get_A()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.ASetDouble">
+            <summary>Sets the shim of Rectangle.set_A(Double value)</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimRectangle.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.AGet">
+            <summary>Sets the shim of Rectangle.get_A()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.ASetDouble">
+            <summary>Sets the shim of Rectangle.set_A(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.BGet">
+            <summary>Sets the shim of Rectangle.get_B()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.BSetDouble">
+            <summary>Sets the shim of Rectangle.set_B(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.ToString01">
+            <summary>Sets the shim of Rectangle.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.countCircuit">
+            <summary>Sets the shim of Rectangle.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.AllInstances.countSurface">
+            <summary>Sets the shim of Rectangle.countSurface()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.BGet">
+            <summary>Sets the shim of Rectangle.get_B()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.BSetDouble">
+            <summary>Sets the shim of Rectangle.set_B(Double value)</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimRectangle.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimRectangle.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimRectangle.Bind(Geometric.IGeometricFigure)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.ConstructorDoubleDouble">
+            <summary>Sets the shim of Rectangle.Rectangle(Double a, Double b)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.ToString">
+            <summary>Sets the shim of Rectangle.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.countCircuit">
+            <summary>Sets the shim of Rectangle.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimRectangle.countSurface">
+            <summary>Sets the shim of Rectangle.countSurface()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimSquare">
+            <summary>Shim type of Geometric.Square</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimSquare.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimSquare.#ctor(Geometric.Square)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.AGet">
+            <summary>Sets the shim of Square.get_A()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.ASetDouble">
+            <summary>Sets the shim of Square.set_A(Double value)</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimSquare.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.AllInstances.AGet">
+            <summary>Sets the shim of Square.get_A()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.AllInstances.ASetDouble">
+            <summary>Sets the shim of Square.set_A(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.AllInstances.ToString01">
+            <summary>Sets the shim of Square.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.AllInstances.countCircuit">
+            <summary>Sets the shim of Square.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.AllInstances.countSurface">
+            <summary>Sets the shim of Square.countSurface()</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimSquare.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimSquare.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimSquare.Bind(Geometric.IGeometricFigure)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.ConstructorDouble">
+            <summary>Sets the shim of Square.Square(Double a)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.ToString">
+            <summary>Sets the shim of Square.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.countCircuit">
+            <summary>Sets the shim of Square.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimSquare.countSurface">
+            <summary>Sets the shim of Square.countSurface()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimTriangle">
+            <summary>Shim type of Geometric.Triangle</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimTriangle.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimTriangle.#ctor(Geometric.Triangle)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AGet">
+            <summary>Sets the shim of Triangle.get_A()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.ASetDouble">
+            <summary>Sets the shim of Triangle.set_A(Double value)</summary>
+        </member>
+        <member name="T:Geometric.Fakes.ShimTriangle.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.AGet">
+            <summary>Sets the shim of Triangle.get_A()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.ASetDouble">
+            <summary>Sets the shim of Triangle.set_A(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.BGet">
+            <summary>Sets the shim of Triangle.get_B()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.BSetDouble">
+            <summary>Sets the shim of Triangle.set_B(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.CGet">
+            <summary>Sets the shim of Triangle.get_C()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.CSetDouble">
+            <summary>Sets the shim of Triangle.set_C(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.ToString01">
+            <summary>Sets the shim of Triangle.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.countCircuit">
+            <summary>Sets the shim of Triangle.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.countSurface">
+            <summary>Sets the shim of Triangle.countSurface()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.isEquilateral">
+            <summary>Sets the shim of Triangle.isEquilateral()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.isIsosceles">
+            <summary>Sets the shim of Triangle.isIsosceles()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.AllInstances.isRight">
+            <summary>Sets the shim of Triangle.isRight()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.BGet">
+            <summary>Sets the shim of Triangle.get_B()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.BSetDouble">
+            <summary>Sets the shim of Triangle.set_B(Double value)</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimTriangle.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimTriangle.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Geometric.Fakes.ShimTriangle.Bind(Geometric.IGeometricFigure)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.CGet">
+            <summary>Sets the shim of Triangle.get_C()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.CSetDouble">
+            <summary>Sets the shim of Triangle.set_C(Double value)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.ConstructorDoubleDoubleDouble">
+            <summary>Sets the shim of Triangle.Triangle(Double a, Double b, Double c)</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.ToString">
+            <summary>Sets the shim of Triangle.ToString()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.countCircuit">
+            <summary>Sets the shim of Triangle.countCircuit()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.countSurface">
+            <summary>Sets the shim of Triangle.countSurface()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.isEquilateral">
+            <summary>Sets the shim of Triangle.isEquilateral()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.isIsosceles">
+            <summary>Sets the shim of Triangle.isIsosceles()</summary>
+        </member>
+        <member name="P:Geometric.Fakes.ShimTriangle.isRight">
+            <summary>Sets the shim of Triangle.isRight()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.StubCircle">
+            <summary>Stub type of Geometric.Circle</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubCircle.#ctor(System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubCircle.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubCircle.InitializeStub">
+            <summary>Initializes a new instance of type StubCircle</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubCircle.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubCircle.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubCircle.ToString">
+            <summary>Sets the stub of Circle.ToString()</summary>
+        </member>
+        <member name="F:Geometric.Fakes.StubCircle.ToString01">
+            <summary>Sets the stub of Circle.ToString()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.StubGeometricFiguresAnalyzer">
+            <summary>Stub type of Geometric.GeometricFiguresAnalyzer</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubGeometricFiguresAnalyzer.#ctor(Geometric.IGeometricFigure,Geometric.IGeometricFigure)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubGeometricFiguresAnalyzer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubGeometricFiguresAnalyzer.InitializeStub">
+            <summary>Initializes a new instance of type StubGeometricFiguresAnalyzer</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubGeometricFiguresAnalyzer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubGeometricFiguresAnalyzer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Geometric.Fakes.StubIGeometricFigure">
+            <summary>Stub type of Geometric.IGeometricFigure</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubIGeometricFigure.#ctor">
+            <summary>Initializes a new instance of type StubIGeometricFigure</summary>
+        </member>
+        <member name="F:Geometric.Fakes.StubIGeometricFigure.CountCircuit">
+            <summary>Sets the stub of IGeometricFigure.countCircuit()</summary>
+        </member>
+        <member name="F:Geometric.Fakes.StubIGeometricFigure.CountSurface">
+            <summary>Sets the stub of IGeometricFigure.countSurface()</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubIGeometricFigure.Geometric#IGeometricFigure#countCircuit">
+            <summary>Sets the stub of IGeometricFigure.countCircuit()</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubIGeometricFigure.Geometric#IGeometricFigure#countSurface">
+            <summary>Sets the stub of IGeometricFigure.countSurface()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.StubRectangle">
+            <summary>Stub type of Geometric.Rectangle</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubRectangle.#ctor(System.Double,System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubRectangle.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubRectangle.InitializeStub">
+            <summary>Initializes a new instance of type StubRectangle</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubRectangle.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubRectangle.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubRectangle.ToString">
+            <summary>Sets the stub of Rectangle.ToString()</summary>
+        </member>
+        <member name="F:Geometric.Fakes.StubRectangle.ToString01">
+            <summary>Sets the stub of Rectangle.ToString()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.StubSquare">
+            <summary>Stub type of Geometric.Square</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubSquare.#ctor(System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubSquare.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubSquare.InitializeStub">
+            <summary>Initializes a new instance of type StubSquare</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubSquare.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubSquare.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubSquare.ToString">
+            <summary>Sets the stub of Square.ToString()</summary>
+        </member>
+        <member name="F:Geometric.Fakes.StubSquare.ToString01">
+            <summary>Sets the stub of Square.ToString()</summary>
+        </member>
+        <member name="T:Geometric.Fakes.StubTriangle">
+            <summary>Stub type of Geometric.Triangle</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubTriangle.#ctor(System.Double,System.Double,System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubTriangle.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubTriangle.InitializeStub">
+            <summary>Initializes a new instance of type StubTriangle</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubTriangle.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Geometric.Fakes.StubTriangle.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Geometric.Fakes.StubTriangle.ToString">
+            <summary>Sets the stub of Triangle.ToString()</summary>
+        </member>
+        <member name="F:Geometric.Fakes.StubTriangle.ToString01">
+            <summary>Sets the stub of Triangle.ToString()</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,43 @@
+
+public class Table {
+	
+	public int[] table;
+	
+	public Table(int[] table) {
+		this.table = table;
+	}
+	
+	public int largest(Table t) {
+		if (t.table == null || t.table.length < 1)
+			throw new IllegalArgumentException();
+		if(t.table.length == 1)
+			return t.table[0];
+		int max = t.table[0];
+		for(int i = 1 ; i < t.table.length; i++) {
+			if(t.table[i] > max)
+				max = t.table[i];
+		}
+		return max;
+	}
+	public int smallest(Table t) {
+		if (t.table == null || t.table.length < 1)
+			throw new IllegalArgumentException();
+		if(t.table.length == 1)
+			return t.table[0];
+		int min = t.table[0];
+		for(int i = 1 ; i < t.table.length; i++) {
+			if(t.table[i] < min)
+				min = t.table[i];
+		}
+		return min;
+	}
+	public boolean isSorted(Table t) {
+		if (t.table == null || t.table.length < 2)
+			throw new IllegalArgumentException();
+		for(int i = 0; i < t.table.length - 1; i++) {
+			if(t.table[i] > t.table[i+1])
+				return false;
+		}
+		return true;
+	}
+}

@@ -1,0 +1,66 @@
+import static org.junit.Assert.*;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class QuadraticFunction {
+
+	static BufferedReader rdr;
+	String line;
+	
+	@BeforeClass
+	public void setUp() throws Exception {
+		rdr = new BufferedReader(new FileReader("test/test.txt"));
+	}
+	
+	@Test
+	public void testFromFile() throws Exception {
+		while((line = rdr.readLine()) != null) {
+			if (line.startsWith("#")) {
+				continue;
+			}			
+			StringTokenizer st = new StringTokenizer(line);
+			if (!st.hasMoreTokens()) {
+				continue;
+			}
+			
+			int expected = getExpected(st);						
+			int[] arguments = getArgumentArray(st);
+			assertEquals(expected, Largest.largest(arguments));
+		}
+	}
+	
+	@After
+	public void tearDown() throws Exception {
+		rdr.close();
+	}	
+	
+	private int getExpected(StringTokenizer st) {
+		String val = st.nextToken();
+		int expected = Integer.valueOf(val).intValue();
+		return expected;
+	}
+	
+	private ArrayList<Integer> getArgumentList(StringTokenizer st) {
+		ArrayList<Integer> argumentList = new ArrayList<Integer>();
+		while (st.hasMoreTokens()) {
+			argumentList.add(Integer.valueOf(st.nextToken()));
+		}
+		return argumentList;
+	}
+	
+	private int[] getArgumentArray(StringTokenizer st) {
+		ArrayList<Integer> argumentList = getArgumentList(st);
+		int[] arguments = new int[argumentList.size()];
+		for(int i=0; i<argumentList.size(); i++) {
+			arguments[i] = ((Integer) argumentList.get(i)).intValue();
+		}
+		return arguments;
+	}
+}

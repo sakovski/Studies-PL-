@@ -1,0 +1,2 @@
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\GeometricTest\obj\Debug\Fakes\m\o\f.csprojResolveAssemblyReference.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\GeometricTest\obj\Debug\Fakes\m\o\f.csproj.CoreCompileInputs.cache

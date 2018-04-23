@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FriendshipsTest {
+
+	@Test
+	public void test() {
+		Friendships friendship = new Friendships();
+		friendship.makeFriends("Jurek", "Marek");
+		assertTrue(friendship.areFriends("Jurek", "Marek"))
+	}
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FriendshipsTest" project="Zad4" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="FriendshipsTest" time="0.003">
+    <testcase name="areFriendsNotExistingPeople1Test" classname="FriendshipsTest" time="0.001"/>
+    <testcase name="areFriendsNotExistingPeople2Test" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="areFriendsSwappedFalseTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="emptyFriendStringTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="emptyPersonStringTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="areFriendsTrueTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="areFriendsFalseTest" classname="FriendshipsTest" time="0.001"/>
+    <testcase name="areFriendsSwappedTrueTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="addRedundantFriendshipTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="getFriendsListTest" classname="FriendshipsTest" time="0.001"/>
+  </testsuite>
+</testrun>

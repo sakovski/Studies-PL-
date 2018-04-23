@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+/home/srutkowski/TestowanieJava/laboratorium-4-sakovski/.metadata/.plugins/org.eclipse.jdt.core
+3596078764.index
+945401728.index

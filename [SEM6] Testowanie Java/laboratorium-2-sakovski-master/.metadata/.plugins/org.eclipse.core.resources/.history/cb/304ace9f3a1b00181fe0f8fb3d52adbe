@@ -1,0 +1,71 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class FriendshipsTest {
+	
+	private Friendships friendships;
+	
+	@Before
+	public void setUp() {
+		friendships = new Friendships();
+		friendships.makeFriends("Jurek", "Marek");
+		friendships.makeFriends("Jurek", "Tomek");
+		friendships.makeFriends("Jurek", "Kamil");
+		friendships.makeFriends("Jurek", "¯yrard");
+		friendships.makeFriends("Kamil", "Marek");
+		friendships.makeFriends("Rafa³", "Pawe³");
+	}
+	
+	@Test
+	public void areFriendsTrueTest() {
+		assertTrue(friendships.areFriends("Jurek", "Marek"));
+	}
+	
+	@Test
+	public void areFriendsSwappedTrueTest() {
+		assertTrue(friendships.areFriends("Marek", "Jurek"));
+	}
+	
+	@Test
+	public void areFriendsFalseTest() {
+		assertFalse(friendships.areFriends("Jurek", "Pawe³"));
+	}
+	
+	@Test
+	public void areFriendsSwappedFalseTest() {
+		assertFalse(friendships.areFriends("Pawe³", "Jurek"));
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void areFriendsNotExistingPeople1Test() {
+		assertFalse(friendships.areFriends("Joanna", "Pawe³"));
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void areFriendsNotExistingPeople2Test() {
+		assertFalse(friendships.areFriends("Pawe³", "Joanna"));
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void addRedundantFriendshipTest() {
+		friendships.makeFriends("Jurek", "Marek");
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void emptyPersonStringTest() {
+		friendships.makeFriends("", "Marek");
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void emptyFriendStringTest() {
+		friendships.makeFriends("Jurek", "");
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void getFriendsListTest() {
+		friendships.makeFriends("Anna", "Mirek");
+		friendships.getFriendsList("Anna");
+	}
+}

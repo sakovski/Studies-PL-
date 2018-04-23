@@ -1,0 +1,60 @@
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class StringOperationsTest {
+	
+	private static StringOperations operations;
+	
+	@BeforeClass
+	public static void setUp()
+	{
+		operations = new StringOperations();
+	}
+	
+	@Test
+	public void reverseEmptyStringTest() {
+		assertThat(operations.reverse(""), equalTo(""));
+	}
+	
+	@Test
+	public void reverseLongStringTest() {
+		assertThat(operations.reverse("reverse"), equalTo("esrever"));
+	}
+	
+	@Test
+	public void reversePalindromeTest() {
+		assertTrue(operations.reverse("kajak").contains("kajak"));
+	}
+	
+	@Test
+	public void concatLongStringsTest() {
+		assertThat(operations.concat("first", "second"), allOf(is("firstsecond"), containsString("first")));
+	}
+	
+	@Test
+	public void concatLongStringsReversedTest() {
+		assertThat(operations.concat("second", "first"), is("secondfirst"));
+	}
+	
+	@Test
+	public void concatEmptyStringsTest() {
+		assertThat(operations.concat("", ""), blankString());
+	}
+	
+	@Test
+	public void isPalindromeTrueTest() {
+		assertTrue(operations.isPalindrome("kajak"))'';
+	}
+	
+	@AfterClass
+	public static void tearDonw()
+	{
+		operations = null;
+	}
+}

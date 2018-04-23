@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FriendshipsTest" project="Zad4" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="FriendshipsTest" time="0.001">
+    <testcase name="areRedundantFriendshipTest" classname="FriendshipsTest" time="0.001"/>
+    <testcase name="areFriendsTrueTest" classname="FriendshipsTest" time="0.0"/>
+    <testcase name="areFriendsFalseTest" classname="FriendshipsTest" time="0.0"/>
+  </testsuite>
+</testrun>

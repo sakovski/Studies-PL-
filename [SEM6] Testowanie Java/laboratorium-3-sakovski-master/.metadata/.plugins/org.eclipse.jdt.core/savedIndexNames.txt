@@ -1,0 +1,7 @@
+INDEX VERSION 1.129+D:\Programowanie\Testowanie_Java\laboratorium-3-sakovski\.metadata\.plugins\org.eclipse.jdt.core
+370220883.index
+1747276979.index
+2676087711.index
+4131504400.index
+522347557.index
+2168910214.index

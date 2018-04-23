@@ -1,0 +1,13 @@
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\GeometricFiguresTest.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\GeometricFiguresTest.pdb
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\obj\Debug\GeometricFiguresTest.csprojResolveAssemblyReference.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\obj\Debug\GeometricFiguresTest.csproj.CoreCompileInputs.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\obj\Debug\GeometricFiguresTest.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFiguresTest\obj\Debug\GeometricFiguresTest.pdb

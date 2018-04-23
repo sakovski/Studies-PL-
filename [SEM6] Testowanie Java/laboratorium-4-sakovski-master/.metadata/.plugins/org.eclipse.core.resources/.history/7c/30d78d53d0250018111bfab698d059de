@@ -1,0 +1,35 @@
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class StringOperationsTest {
+	
+	private static StringOperations operations;
+	
+	@BeforeClass
+	public static void setUp()
+	{
+		operations = new StringOperations();
+	}
+	
+	@Test
+	public void reverseEmptyStringTest() {
+		assertThat(operations.reverse(""), equalTo(""));
+	}
+	
+	@Test
+	public void reverseLongStringTest() {
+		assertThat(operations.reverse("reverse"), equalTo("esrever"));
+	}
+	
+	@AfterClass
+	public static void tearDonw()
+	{
+		operations = null;
+	}
+}

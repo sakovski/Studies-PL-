@@ -1,0 +1,5 @@
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart
+cd my-app
+mvn compile
+mvn package
+java -cp target/my-app-1.0.jar com.mycompany.app.App

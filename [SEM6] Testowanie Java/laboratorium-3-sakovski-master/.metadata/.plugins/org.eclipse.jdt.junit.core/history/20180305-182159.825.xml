@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LargestTest" project="Zad4" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="LargestTest" time="0.001">
+    <testsuite name="[0]" time="0.001">
+      <testcase name="test[0]" classname="LargestTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="test[1]" classname="LargestTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="test[2]" classname="LargestTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="test[3]" classname="LargestTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4]" time="0.0">
+      <testcase name="test[4]" classname="LargestTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[5]" time="0.0">
+      <testcase name="test[5]" classname="LargestTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

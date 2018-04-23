@@ -1,0 +1,6 @@
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\Geomteric\bin\Debug\Geomteric.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\Geomteric\bin\Debug\Geomteric.pdb
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\Geomteric\obj\Debug\Geomteric.csproj.CoreCompileInputs.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\Geomteric\obj\Debug\Geomteric.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\Geomteric\obj\Debug\Geomteric.pdb
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\Geomteric\Geomteric\obj\Debug\Geomteric.csprojResolveAssemblyReference.cache

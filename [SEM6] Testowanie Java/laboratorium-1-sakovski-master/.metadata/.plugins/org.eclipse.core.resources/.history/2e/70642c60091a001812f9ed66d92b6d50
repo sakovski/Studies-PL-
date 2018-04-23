@@ -1,0 +1,29 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TableTest {
+
+	@Test(expected=IllegalArgumentException.class)
+	public void largest_null_test() {
+		Table table = new Table(null);
+		int largest = table.largest(table);
+		assertNull(largest);
+	}
+	
+	@Test
+	public void largest_oneelem_test() {
+		int elem = 4;
+		Table table = new Table(new int[]{elem});
+		int largest = table.largest(table);
+		assertEquals(elem, largest);
+	}
+	
+	@Test
+	public void largest_filled_test() {
+		int elem = 4;
+		Table table = new Table(new int[]{elem});
+		int largest = table.largest(table);
+		assertEquals(elem, largest);
+	}
+}

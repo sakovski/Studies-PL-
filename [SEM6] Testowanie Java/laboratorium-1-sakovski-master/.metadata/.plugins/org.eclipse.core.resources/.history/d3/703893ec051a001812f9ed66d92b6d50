@@ -1,0 +1,22 @@
+
+public class Table {
+	
+	public int[] table;
+	
+	public Table(int[] table) {
+		this.table = table;
+	}
+	
+	public int largest(Table t) {
+		int max = t.table[0];
+		for(int elem : t.table) {
+			
+		}
+	}
+	public int smallest(Table t) {
+		
+	}
+	public boolean isSorted(Table t) {
+		
+	}
+}

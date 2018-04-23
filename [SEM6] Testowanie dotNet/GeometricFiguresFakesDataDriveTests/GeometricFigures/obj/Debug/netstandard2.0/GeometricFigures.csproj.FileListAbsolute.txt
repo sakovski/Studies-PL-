@@ -1,0 +1,9 @@
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\bin\Debug\netstandard2.0\GeometricFigures.deps.json
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\bin\Debug\netstandard2.0\GeometricFigures.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\bin\Debug\netstandard2.0\GeometricFigures.pdb
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\obj\Debug\netstandard2.0\GeometricFigures.csprojResolveAssemblyReference.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\obj\Debug\netstandard2.0\GeometricFigures.csproj.CoreCompileInputs.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\obj\Debug\netstandard2.0\GeometricFigures.AssemblyInfoInputs.cache
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\obj\Debug\netstandard2.0\GeometricFigures.AssemblyInfo.cs
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\obj\Debug\netstandard2.0\GeometricFigures.dll
+D:\Programming\Testowanie .Net\GeometricFigures\GeometricFigures\GeometricFigures\obj\Debug\netstandard2.0\GeometricFigures.pdb
