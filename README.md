@@ -1,1 +1,1 @@
-#Studies content mainly in polish.
+# Studies content mainly in polish.
